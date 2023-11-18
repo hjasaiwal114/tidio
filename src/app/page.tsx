@@ -80,12 +80,13 @@ export default function Home() {
               -&gt;
             </span>
           </h2>
-          <ChatComponent />
+          
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             chat with  our smart ai  bot 
           </p>
         </a>
       </div>
+      <ChatComponent />
     </main>
   )
 }
